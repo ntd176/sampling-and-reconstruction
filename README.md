@@ -16,13 +16,27 @@
 
 [1. Sampling](#LayMau)
 
-[1.1 Notion](#KhaiNiem)
+[1.1 SamplingNotion](#KhaiNiemLayMau)
 
 [1.2 Sampling Definition](#DinhNghiaLayMauNquist-Shannon)
 
 [2. Aliasing Phenomenon](#ChongLanPho)
 
+[2.1 AliasingNotion](#KhaiNiemAliasing)
+
+[2.2 Causes of Aliasing](#NguyenNhan)
+
+[2.3 Aliasing's Influence](#AnhHuong)
+
+[2.4 Prevention of Aliasing](#NganChan)
+
 [3. Signal Reconstruction](#KhoiPhucTinHieu)
+
+[3.1 Zero-Order-Hold Interpolation](#ZOH)
+
+[3.2 First-Order-Hold Interpolation](#FOH)
+
+[3.3 Restore Shape](#KhoiPhucHinhDang)
 
 [III. Chapter 3: Matlab Simulation And Jupyter Notebook](#III)
 
@@ -49,7 +63,7 @@ the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) 
 # II. Chapter 2: Theoretical basis
 <a name = "LayMau"></a>
 # 1. Sampling
-<a name = "KhaiNiem"></a>
+<a name = "KhaiNiemLayMau"></a>
 # 1.1 Notion
 Sampling is the process of converting a continuous signal over time (analog) into a discrete (digital) signal equal to how to get the values of the signal to create regular intervals.
 <a name = "DinhNghiaLayMauNyquist-Shannon"></a>
@@ -58,5 +72,37 @@ The sampling theorem ensures that the analog signal can be fully recovered as lo
 Fs ≥ 2Fmax 
 - Fs → sampling frequency 
 - Fmax → the highest frequency of the signal
+The sampling frequency (Fs) is the number of samples taken in 1 second.
+<a name = "ChongLanPho"></a>
+# 2. Aliasing Phenomenon
+<a name = "KhaiNiemAliasing"></a>
+# 2.1 Aliasing Notion
+Aliasing occurs when the sampling frequency of a signal is not high enough to capture the full details of the original signal, led to the digitized signal is distorted or the frequency component is
+different from the original signal.
+<a name = "NguyenNhan"></a>
+# 2.2 Causes of Aliasing
+- Insufficient sampling frequency 
+- No anti-aliasing filter used
+<a name = "AnhHuong"></a>
+# 2.3 Aliasing's Influence
+- Distorted signal 
+- Lost Information
+<a name = "NganChan"></a>
+# 2.4 Prevention of Aliasing
+- Increasing Sampling Frequency 
+- Use a low-pass filter to remove the higher frequency component than the Nyquist frequency.
+
+<a name = "KhoiPhucTinHieu"></a>
+# 3. Signal Reconstruction
+<a name = "ZOH"></a>
+# 3.1 Zero-Order-Hold Interpolation 
+In this interpolation, a certain sample value is kept for the sampling period until it is received is the next sample.
+<a name = "FOH"></a>
+# 3.2 First-Order-Hold Interpolation
+In this case, adjacent patterns are joined by straight lines. This can be achieved by filtering the pulse chain through:
+![FOH](https://wikimedia.org/api/rest_v1/media/math/render/svg/91bb77a01a1e00a62c741d1c6d3f6badefa90b71)
+<a name = "KhoiPhucHinhDang"></a>
+# 3.3 Restore Shape
+
 ### Version Simulation
 ==> Version matlab R2023a.
