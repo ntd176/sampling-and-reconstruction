@@ -104,5 +104,12 @@ In this case, adjacent patterns are joined by straight lines. This can be achiev
 <a name = "KhoiPhucHinhDang"></a>
 # 3.3 Restore Shape
 
+<a name = "III"></a>
+# III. Chapter 3: MatLab Simulation And Jupyter Notebook
+<a name = "3.1"></a>
+# 3.1 Matlab Simulink
+<a name = "3.2"></a>
+# 3.2 Jupyter Notebook
+
 ### Version Simulation
 ==> Version matlab R2023a.
