@@ -22,9 +22,9 @@
 
 [III. Chapter3: Matlab Simulation And Jupyter Notebook](#III)
 
-[1. Matlab Simulink]
+[1. Matlab Simulink](#3.1)
 
-[2. Jupyter Notebook]
+[2. Jupyter Notebook](#3.2)
 
 ### Version Simulation
 ==> Version matlab R2023a.
