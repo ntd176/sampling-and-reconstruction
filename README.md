@@ -18,6 +18,13 @@
 
 [2. Aliasing Phenomenon](#ChongLanPho)
 
+[3. Signal Reconstruction](#KhoiPhucTinHieu)
 
-This is a digital signal processing project using matlab simulation and jupyter notebook.
-Version matlab R2023a.
+[III. Chapter3: Matlab Simulation And Jupyter Notebook]
+
+[1. Matlab Simulink]
+
+[2. Jupyter Notebook]
+
+### Version Simulation
+==> Version matlab R2023a.
