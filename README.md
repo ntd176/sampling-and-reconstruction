@@ -29,6 +29,12 @@
 
 <a name = "I"></a>
 # I. Chapter 1: Introduction
+<a name = "DoAnMonHoc"></a>
+# Subject Project
+In the field of digital signal processing, the process of sampling and signal recovery plays a key role in the transformation and process real-world continuous signals into binary number form that
+computers can process. Steps This is not only necessary for efficient signal storage and transmission, but also to ensure that the original information is kept complete. (1) Sampling the signal converts
+the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) Signal restoration is the opposite process compared to sampling → converting discrete (digital) signals to to a continuous
+(analog) form through DAC. The above two processes apply a lot to life devices such as: digital audio and video, digital communication, photo processing...
 
 ### Version Simulation
 ==> Version matlab R2023a.
