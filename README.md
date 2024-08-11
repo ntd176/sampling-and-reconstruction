@@ -18,6 +18,8 @@
 
 [1.1 Notion](#KhaiNiem)
 
+[1.2 Sampling Definition](#DinhNghiaLayMauNquist-Shannon)
+
 [2. Aliasing Phenomenon](#ChongLanPho)
 
 [3. Signal Reconstruction](#KhoiPhucTinHieu)
@@ -48,6 +50,13 @@ the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) 
 <a name = "LayMau"></a>
 # 1. Sampling
 <a name = "KhaiNiem"></a>
-# 1.1 Chapter 1: Introduction
+# 1.1 Notion
+Sampling is the process of converting a continuous signal over time (analog) into a discrete (digital) signal equal to how to get the values of the signal to create regular intervals.
+<a name = "DinhNghiaLayMauNyquist-Shannon"></a>
+# 1.2 Sampling Definition
+The sampling theorem ensures that the analog signal can be fully recovered as long as the sampling rate is at least twice as large as the highest frequency component of the sampled condenser signal. 
+Fs ≥ 2Fmax 
+- Fs → sampling frequency 
+- Fmax → the highest frequency of the signal
 ### Version Simulation
 ==> Version matlab R2023a.
