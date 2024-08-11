@@ -36,5 +36,10 @@ computers can process. Steps This is not only necessary for efficient signal sto
 the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) Signal restoration is the opposite process compared to sampling → converting discrete (digital) signals to to a continuous
 (analog) form through DAC. The above two processes apply a lot to life devices such as: digital audio and video, digital communication, photo processing...
 
+<a name = "MucTieuDoAn"></a>
+# Subject Goal
+- Understand the theory of sampling and signal recovery → the Nyquist-Shannon sampling theorem. 
+- Design and perform a simulation of the sampling and signal recovery process → using Matlab Simulink. 
+- Analysis and evaluation of simulation results → Comparison and evaluation of original and post-recovery signals to check accuracy.
 ### Version Simulation
 ==> Version matlab R2023a.
