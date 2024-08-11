@@ -20,7 +20,7 @@
 
 [3. Signal Reconstruction](#KhoiPhucTinHieu)
 
-[III. Chapter3: Matlab Simulation And Jupyter Notebook]
+[III. Chapter3: Matlab Simulation And Jupyter Notebook](#III)
 
 [1. Matlab Simulink]
 
