@@ -61,6 +61,7 @@ the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) 
 
 <a name = "II"></a>
 # II. Chapter 2: Theoretical basis
+
 ![Block Diagram of Digital Signal Processing](https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/453478053_1674141270076645_1036128724949355575_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=6v4MoBsVOrcQ7kNvgFFOcOg&_nc_ht=scontent.fsgn5-14.fna&oh=03_Q7cD1QFWGIGiYPagQZruFhzvu8rdLe2lCQg732siyTmM7B8wrQ&oe=66E37D50)
 
 The process of converting analog signals to digital signals through an ADC occurs through the following steps:
@@ -72,6 +73,7 @@ The process of converting analog signals to digital signals through an ADC occur
 <a name = "KhaiNiemLayMau"></a>
 # 1.1 Notion
 Sampling is the process of converting a continuous signal over time (analog) into a discrete (digital) signal equal to how to get the values of the signal to create regular intervals.
+
 ![Sampling Model](https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.15752-9/451275682_2032207797182450_4486953403117443058_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=UHzI8HHV-TsQ7kNvgH4-vSv&_nc_ht=scontent.fsgn5-9.fna&oh=03_Q7cD1QH4IZNyWteJ_pPhjPuifD7F1QhP3uRsWguo8G_wFYP6pw&oe=66E38E30)
 
 <a name = "DinhNghiaLayMauNyquist-Shannon"></a>
@@ -87,6 +89,7 @@ The sampling frequency (Fs) is the number of samples taken in 1 second.
 # 2.1 Aliasing Notion
 Aliasing occurs when the sampling frequency of a signal is not high enough to capture the full details of the original signal, led to the digitized signal is distorted or the frequency component is
 different from the original signal.
+
 ![The blue sampled signal is sufficiently bandlimited](https://scontent.fsgn5-12.fna.fbcdn.net/v/t1.15752-9/453437143_1368164827437156_7541003032965069600_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=PhGGR8TNwsEQ7kNvgG44gci&_nc_ht=scontent.fsgn5-12.fna&oh=03_Q7cD1QG1gtnMlFlgxVhcAwKBBkRbsnDJgqGnJUo4ouKPh-wDnw&oe=66E3A37B)
 
 <a name = "NguyenNhan"></a>
@@ -97,6 +100,7 @@ different from the original signal.
 # 2.3 Aliasing's Influence
 - Distorted signal 
 - Lost Information
+
 ![The Spectrum of a bandlimited signal is shown ](https://scontent.fsgn5-12.fna.fbcdn.net/v/t1.15752-9/454518915_866825351467080_6988008537933445333_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=gP8npTX8RNEQ7kNvgFQOcgb&_nc_ht=scontent.fsgn5-12.fna&oh=03_Q7cD1QHrAQq_QUOE58CeB9Omd9CYmBf00FWIWPZreGA5qUpb4Q&oe=66E38C84)
 
 <a name = "NganChan"></a>
@@ -111,7 +115,9 @@ In this interpolation, a certain sample value is kept for the sampling period un
 <a name = "FOH"></a>
 # 3.2 First-Order-Hold Interpolation
 In this case, adjacent patterns are joined by straight lines. This can be achieved by filtering the pulse chain through:
+
 ![FOH](https://wikimedia.org/api/rest_v1/media/math/render/svg/91bb77a01a1e00a62c741d1c6d3f6badefa90b71)
+
 <a name = "KhoiPhucHinhDang"></a>
 # 3.3 Restore Shape
 
