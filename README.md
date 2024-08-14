@@ -72,6 +72,8 @@ The process of converting analog signals to digital signals through an ADC occur
 <a name = "KhaiNiemLayMau"></a>
 # 1.1 Notion
 Sampling is the process of converting a continuous signal over time (analog) into a discrete (digital) signal equal to how to get the values of the signal to create regular intervals.
+![Sampling Model](https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.15752-9/451275682_2032207797182450_4486953403117443058_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=UHzI8HHV-TsQ7kNvgH4-vSv&_nc_ht=scontent.fsgn5-9.fna&oh=03_Q7cD1QH4IZNyWteJ_pPhjPuifD7F1QhP3uRsWguo8G_wFYP6pw&oe=66E38E30)
+
 <a name = "DinhNghiaLayMauNyquist-Shannon"></a>
 # 1.2 Sampling Definition
 The sampling theorem ensures that the analog signal can be fully recovered as long as the sampling rate is at least twice as large as the highest frequency component of the sampled condenser signal. 
