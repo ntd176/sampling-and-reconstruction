@@ -61,6 +61,7 @@ the continuous signal (analog) into a discrete signal (digital) by the ADC. (2) 
 
 <a name = "II"></a>
 # II. Chapter 2: Theoretical basis
+![Block Diagram of Digital Signal Processing](https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/453478053_1674141270076645_1036128724949355575_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=6v4MoBsVOrcQ7kNvgFFOcOg&_nc_ht=scontent.fsgn5-14.fna&oh=03_Q7cD1QFWGIGiYPagQZruFhzvu8rdLe2lCQg732siyTmM7B8wrQ&oe=66E37D50)
 <a name = "LayMau"></a>
 # 1. Sampling
 <a name = "KhaiNiemLayMau"></a>
