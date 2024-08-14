@@ -87,6 +87,8 @@ The sampling frequency (Fs) is the number of samples taken in 1 second.
 # 2.1 Aliasing Notion
 Aliasing occurs when the sampling frequency of a signal is not high enough to capture the full details of the original signal, led to the digitized signal is distorted or the frequency component is
 different from the original signal.
+![The blue sampled signal is sufficiently bandlimited](https://scontent.fsgn5-12.fna.fbcdn.net/v/t1.15752-9/453437143_1368164827437156_7541003032965069600_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=PhGGR8TNwsEQ7kNvgG44gci&_nc_ht=scontent.fsgn5-12.fna&oh=03_Q7cD1QG1gtnMlFlgxVhcAwKBBkRbsnDJgqGnJUo4ouKPh-wDnw&oe=66E3A37B)
+
 <a name = "NguyenNhan"></a>
 # 2.2 Causes of Aliasing
 - Insufficient sampling frequency 
@@ -95,11 +97,12 @@ different from the original signal.
 # 2.3 Aliasing's Influence
 - Distorted signal 
 - Lost Information
+![The Spectrum of a bandlimited signal is shown ](https://scontent.fsgn5-12.fna.fbcdn.net/v/t1.15752-9/454518915_866825351467080_6988008537933445333_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=gP8npTX8RNEQ7kNvgFQOcgb&_nc_ht=scontent.fsgn5-12.fna&oh=03_Q7cD1QHrAQq_QUOE58CeB9Omd9CYmBf00FWIWPZreGA5qUpb4Q&oe=66E38C84)
+
 <a name = "NganChan"></a>
 # 2.4 Prevention of Aliasing
 - Increasing Sampling Frequency 
 - Use a low-pass filter to remove the higher frequency component than the Nyquist frequency.
-
 <a name = "KhoiPhucTinHieu"></a>
 # 3. Signal Reconstruction
 <a name = "ZOH"></a>
