@@ -40,7 +40,7 @@
 
 [III. Chapter 3: Matlab Simulation And Jupyter Notebook](#III)
 
-[1. Matlab Simulink](#3.1)
+[1. Matlab Simulation](#3.1)
 
 [2. Jupyter Notebook](#3.2)
 
@@ -123,8 +123,25 @@ In this case, adjacent patterns are joined by straight lines. This can be achiev
 
 <a name = "III"></a>
 # III. Chapter 3: MatLab Simulation And Jupyter Notebook
+
 <a name = "3.1"></a>
-# 3.1 Matlab Simulink
+# 3.1 Matlab Simulation
+xa(t) = 5sin(20πt), 0≤ t ≤ 1.
+fmax = 20π / 2 π  =  10 Hz
+Theo định lí lấy mẫu Nyquist :         fs  >=  2fmax     <=>  fs >= 20 Hz
+
+fs1 = 10Hz
+![fs1](https://scontent.fsgn5-12.fna.fbcdn.net/v/t1.15752-9/453894257_344440448740472_4327297731452027034_n.png?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=wG_kXpQuwbQQ7kNvgGSpsVx&_nc_ht=scontent.fsgn5-12.fna&oh=03_Q7cD1QG6NvZfD5BB3CmBqJW7rEBwIjz41OR9Wt35XHJyv-9KIA&oe=66E37F75)
+
+fs2 = 20Hz
+![fs2](https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.15752-9/451287050_867489188775021_7753376292108564047_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=bMlLUA_ScqQQ7kNvgEzEdeC&_nc_ht=scontent.fsgn5-9.fna&oh=03_Q7cD1QHr7-T15YMoHuJQtKv87_NEuZxvbjufvpeCW-SNBvlNVQ&oe=66E389BB)
+
+fs3 = 100Hz
+![fs3](https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.15752-9/454046915_1551737422367475_387842403031950355_n.png?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_ohc=nssyMAVAjpMQ7kNvgEr7FDx&_nc_ht=scontent.fsgn5-5.fna&oh=03_Q7cD1QEgqtnkrfVoZ9n5HjYbf5L2plWL4yDJjJWUKf7YLsTUvw&oe=66E3AABB)
+
+fs4 = 1000Hz
+![fs4](https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.15752-9/453286578_690733899924866_808984128270162934_n.png?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=L6xa2_y3HQMQ7kNvgExRYl0&_nc_ht=scontent.fsgn5-15.fna&oh=03_Q7cD1QF183OY6E19_4RFBoJgFC3Wr9Da-Y0DwiRSjZAZSqD7Dw&oe=66E39DC3)
+
 <a name = "3.2"></a>
 # 3.2 Jupyter Notebook
 
